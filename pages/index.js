@@ -1,3 +1,6 @@
+// Trigger redeploy to activate X-Frame-Options header
+
+
 import { useState } from 'react';
 
 export default function Home() {
