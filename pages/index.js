@@ -10,7 +10,7 @@ export default function Home() {
 
   useEffect(() => {
     const sendHeight = () => {
-      const height = document.body.scrollHeight;
+      const height = document.documentElement.scrollHeight;
       window.parent.postMessage({ type: 'setHeight', height }, '*');
     };
 
