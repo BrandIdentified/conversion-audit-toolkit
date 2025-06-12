@@ -4,7 +4,7 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: '/(.*)',
+        source: '/api/embed',
         headers: [
           {
             key: 'X-Frame-Options',
