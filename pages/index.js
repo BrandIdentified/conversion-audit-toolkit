@@ -117,6 +117,15 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-900 py-12 px-4 sm:px-6 lg:px-8 text-white">
+          <div className="max-w-5xl mx-auto mb-10 text-center">
+      <div className="text-center mb-10">
+  <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">Conversion Audit Toolkit</h1>
+  <p className="text-lg text-gray-300">
+    Evaluate how ready your website and business are to convert leads, build trust, and drive results.
+  </p>
+</div>
+    </div>
+
       <div className="max-w-5xl mx-auto bg-gray-800 shadow-lg rounded-lg p-8">
         {!submitted ? (
           <form onSubmit={handleSubmit} className="space-y-8">
